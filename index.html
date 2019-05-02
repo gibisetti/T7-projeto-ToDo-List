@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <h3 class="titulo">To Do List</h3>
+        </header>
+
+        <div class="input-tarefa">
+            <input id="input" placeholder="Adicione uma nova tarefa" name="input-tarefa"></textarea>
+        </div>
+
+
+        <div><button id="add">
+                Add
+            </button>
+        </div>
+
+        <div id="div1">
+            <ul id="lista">
+            </ul>
+        </div>
+
+        <div>
+            <button onclick="marcarTudo()" id="marcar">
+                Marcar todas como concluídas
+            </button>
+
+            <button onclick="excluirTudo()" id="excluir">
+                Excluir todas as tarefas
+            </button>
+
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+
+</html>
